@@ -21,16 +21,10 @@
 }
 
 
-body {
-  height: auto;
-}
+
 
 body {
   background: #1a1a1a;
-  /*background: linear-gradient(120deg, rgba(7, 12, 7, 1) 35%,
-   rgba(85, 91, 85, 1) 66%, 
-   rgba(218, 211, 211, 0.9542191876750701) 88%);*/
-
 }
 
 h1,
