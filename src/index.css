@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'valorant';
+  src: url('./assets/Valorant.ttf');
+}
+
+@font-face {
+  font-family: 'visby';
+  src: url('./assets/VisbyLight.otf');
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #1a1a1a;
+  /*background: linear-gradient(120deg, rgba(7, 12, 7, 1) 35%,
+   rgba(85, 91, 85, 1) 66%, 
+   rgba(218, 211, 211, 0.9542191876750701) 88%);*/
+
+}
+
+h1,
+h4,
+p,
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.headline-div {
+  margin: 5em auto;
+  text-align: center;
+  /*background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);*/
+
+}
+
+.project-headline {
+  font-family: 'valorant';
+  font-size: 5rem;
+  /** TEXT GRADIENT
+    color: #45a585;
+    background-image: -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 1px 5px -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);;*/
+  /** TEXT GRADIENT */
+  color: #dec196;
+  background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: customAni 2s ease-in-out 0s 1 normal backwards;
+}
+
+@keyframes customAni {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(-45px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(-24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(-12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(-6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(-4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+
+
+
+
+.sub-headline {
+  color: #dec196;
+  background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  width: 30em;
+  margin: 1.5em auto;
+}
+
+/****************************************************************************************************************************************/
+
+
+/*Home css*/
+.homeHero-div {
+  background-color: #1a1a1a;
+  height: 80vh;
+  padding: 4em;
+  display: flex;
+  align-items: center;
+
+}
+
+.visbyfont {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5rem;
+  color: #DF0A42;
+}
+
+.small-tag {
+  text-align: center;
+  justify-items: center;
+  width: 10em;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.facode {
+  height: 1.2em;
+  width: 2em;
+  margin-left: 0.7em;
+}
+
+.homeHero-div div h2 {
+  color: aliceblue;
+  font-family: 'visby', sans-serif;
+  word-spacing: 0.2em;
+  font-size: 2.5rem;
+  margin: 1em 0;
+}
+
+.oneliner {
+  font-family: 'visby';
+  position: relative;
+}
+
+.oneliner:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  height: 1em;
+  background-color: #dec196;
+}
+
+/*.coding {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5rem;
+  color: #2D5869;
+}
+
+.ideas {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5rem;
+  color: #2795AC;
+}
+
+.design {
+  font-family: 'visby';
+  font-size: 3.5rem;
+  color: #FB6C06;
+}
+*/
+.btn {
+  margin: 2rem 1rem;
+  color: black;
+  font-weight: 600;
+  padding: 1.3rem 1.5rem;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid #1a1a1a;
+  transition: transform 0.3s ease-in-out;
+  background: rgb(222, 193, 150);
+  background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+}
+
+.round-btn {
+  border: #dec196 1px solid;
+  width: 4em;
+  /* Set a fixed width for the button */
+  height: 4em;
+  color: #1a1a1a;
+  border-radius: 50%;
+  margin-left: 1em;
+  display: flex;
+  /* Make the button a flex container */
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+  /* Center the content vertically */
+}
+
+.github-icon {
+  color: #dec196;
+  background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  width: 2.5em;
+  height: 2.5em;
+  /* Additional styles for the GitHub icon, e.g., font-based or SVG */
+}
+
+.btn:hover {
+  background-color: rgba(245, 245, 220, 0.616);
+  transform: scale(1.1);
+
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+/****home project section *************************************************/
+
+/*************************************************************************************************************************/
+/*Home skill section*/
+
+/*****************************************************************************************************************************/
+
+/* About Page Css*/
+.aboutHero-div-container {}
+
+.intro-div {
+  margin-top: 8em;
+  padding-left: 2em;
+  position: relative;
+}
+
+.aboutHero-div {
+  background-color: #1a1a1a;
+  height: 50vh;
+  padding: 4em;
+}
+
+
+.waving {
+  width: 8em;
+  height: 6em;
+  color: #dec196;
+}
+
+.greetings {
+  margin-left: 2em;
+  font-size: 6rem;
+  position: absolute;
+  top: 30%;
+  color: aliceblue;
+  right: 33%;
+}
+
+.opener-tag {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+
+
+
+.about-content-container {
+  height: auto;
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  padding: 4em;
+}
+
+.about-content {
+  width: 60%;
+}
+
+.about-content p {
+  margin: 1.5em;
+  font-family: 'visby';
+  font-size: 2rem;
+}
