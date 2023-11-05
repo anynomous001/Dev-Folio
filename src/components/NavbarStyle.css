@@ -21,7 +21,8 @@
 }
 
 .logo-name {
-    font-size: 3rem;
+    font-family: 'valorant';
+    font-size: 1rem;
     padding-left: 1em;
     color: #45a585;
     background-image: -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);
@@ -52,7 +53,7 @@
 
 .hamburger {
     display: none;
-    color: #1a1a1a;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -74,6 +75,10 @@
         transition: 0.5s;
     }
 
+    .logo-name {
+        font-size: 2.1rem;
+    }
+
     .nav-menu li {
         padding: 1rem;
     }
@@ -88,6 +93,6 @@
 
     .hamburger {
         display: unset;
-        color: #1a1a1a;
+        color: #ffffff;
     }
 }
