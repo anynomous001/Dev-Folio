@@ -46,9 +46,11 @@
 .nav-menu li {
     padding: 0 0.8rem;
     list-style: none;
-
 }
 
+.nav-menu li:last-child {
+    padding-left: 0.8rem;
+}
 
 .nav-menu li a {
     font-size: 1.6rem;
