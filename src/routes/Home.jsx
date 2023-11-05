@@ -19,7 +19,7 @@ import Technologies from '../components/Technologies'
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <div className='homeHero-div'>
                 <div>
@@ -38,7 +38,7 @@ const Home = () => {
             </div>
             <Technologies />
             <Footer />
-        </div>
+        </>
     )
 }
 

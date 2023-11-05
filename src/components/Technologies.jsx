@@ -13,21 +13,6 @@ import {
 
 const Technologies = () => {
 
-    const data = ProjectData.map((item) => {
-        return (
-            <div key={Math.random()} className='projectcard'>
-                <img src={project} alt='Project-photo' />
-                <h4>Endorment Application
-                </h4>
-                <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
-                <div>
-                    <a href='https://github.com/anynomous001/Endorsement-App' className='view' >View</a>
-                    <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
-                </div>
-            </div >
-        )
-    })
-
     return (
         <div className='home-skills-container'>
             <h1 className='home-project-header'>Some of my Projects</h1>
@@ -65,12 +50,12 @@ const Technologies = () => {
                     </div >
                 </div>
             </div>
+
             <div>
-
-
                 <h1 className='home-skills-headline'>Technologies</h1>
                 <p className='home-skills-subheadline'>that i use </p>
             </div>
+
             <div className='skill-div'>
                 <div className='first-row'><  FaCss3 className='skill-icon' />
                     <p>Some text </p>

@@ -18,7 +18,7 @@
 .home-skills-headline {
     margin: 0 auto;
     margin-top: 1em;
-    font-size: 5rem;
+    font-size: 2rem;
     width: 50%;
 }
 
@@ -88,6 +88,7 @@
 }
 
 
+
 /***/
 .home-projects-container {
     padding: 3em;
@@ -128,4 +129,44 @@
 .home-project-header {
     font-size: 4rem;
     margin-top: 1em;
+}
+
+@media(max-width:700px) {
+    .home-project-header {
+        font-size: 2rem;
+    }
+
+    .flex-div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 3em;
+
+    }
+
+    .home-projects-container {
+        padding: 1em;
+        height: auto;
+
+    }
+
+    .flex-div .projectcard {
+        height: 33%;
+        width: 85%;
+        background-color: #bdb2b267;
+    }
+
+    .home-skills-container {
+        margin-top: 4em;
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 5%;
+        border-top-left-radius: 5%;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        box-shadow: -1px -6px 7px 0px rgba(222, 193, 150, 0.6);
+    }
 }
