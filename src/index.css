@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 @font-face {
   font-family: 'valorant';
   src: url('./assets/Valorant.ttf');
@@ -10,6 +8,10 @@
   src: url('./assets/VisbyLight.otf');
 }
 
+@font-face {
+  font-family: 'outfit';
+  src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
 
 * {
   box-sizing: border-box;
