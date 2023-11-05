@@ -119,10 +119,11 @@
 }
 
 @media only screen and (max-width : 800px) {
-    .projectcardcontainer {
+    .pCard-Container {
         width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         grid-gap: 1em;
         justify-items: center;
         margin-top: 5em;
@@ -137,7 +138,7 @@
     }
 
     .projectcard {
-        width: 90%;
+        width: 80%;
         padding: 0.8rem;
     }
 
@@ -152,20 +153,24 @@
 }
 
 @media only screen and (max-width : 500px) {
-    .projectcardcontainer {
+    .pCard-Container {
         width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 2em;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3em;
     }
+
 
     .projectcard {
         width: 80%;
         padding: 0.8rem;
+        margin: 3em 0;
     }
 
-
+    .pCard-Container:first-child {
+        margin-top: 4em;
+    }
 
     .projectcard h4 {
         font-size: 1.8rem;
@@ -181,4 +186,111 @@
         margin: 0.2em 0.2em 0.8em 0.2em;
     }
 
+}
+
+.headline-div {
+    margin: 5em auto;
+    text-align: center;
+    /*background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);*/
+    width: 100%;
+}
+
+.project-headline {
+    font-family: 'valorant';
+    font-size: 5rem;
+    /** TEXT GRADIENT
+    color: #45a585;
+    background-image: -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 1px 5px -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);;*/
+    /** TEXT GRADIENT */
+    color: #dec196;
+    background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: customAni 2s ease-in-out 0s 1 normal backwards;
+}
+
+@keyframes customAni {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(-45px);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(-24px);
+    }
+
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(-12px);
+    }
+
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(-6px);
+    }
+
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(-4px);
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
+
+
+.sub-headline {
+    color: #dec196;
+    background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    width: 30em;
+    margin: 1.5em auto;
+}
+
+@media (max-width:500px) {
+    .project-headline {
+        font-size: 3rem;
+    }
+
+    .sub-headline {
+        width: 75%;
+        font-size: 1.2rem;
+    }
 }
