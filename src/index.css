@@ -301,14 +301,14 @@ ul {
 
   .intro-div {
     width: 100%;
-    margin-top: 7em;
+    margin-top: 5em;
     position: relative;
     padding-left: 0;
   }
 
   .aboutHero-div {
     background-color: #1a1a1a;
-    height: 50vh;
+    height: 43vh;
     padding: 2em 1.5em;
   }
 
@@ -352,8 +352,12 @@ ul {
     font-size: 1.5rem;
   }
 
+  .about-content :first-child[type='p'] {
+    margin-top: 0;
+  }
+
   .about-img-content {
-    width: 100%;
+    width: 80%;
     margin-right: 2em;
   }
 
