@@ -301,9 +301,8 @@ ul {
 
   .intro-div {
     width: 80%;
-    margin-top: 5em;
+    margin-top: 7em;
     position: relative;
-    border: 1px solid red;
     padding-left: 0;
   }
 
@@ -311,7 +310,6 @@ ul {
     background-color: #1a1a1a;
     height: 35vh;
     padding: 2em 1.5em;
-    border: 1px solid red;
   }
 
   .waving {
@@ -328,7 +326,7 @@ ul {
     left: 13%;
     margin-left: 0;
     margin-top: 0.9em;
-    width: 100%;
+    width: 80%;
   }
 
   .opener-tag {
@@ -346,7 +344,7 @@ ul {
 
   .about-content {
     width: 100%;
-    line-height: 1.5em;
+    line-height: 2.1em;
   }
 
   .about-content p {
