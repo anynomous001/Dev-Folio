@@ -14,9 +14,12 @@ const About = () => {
                     <span className='opener-tag'><PiHandWaving className='waving' />Hi, I'm Pritam Chakroborty</span>
                     <h2 className='greetings'>Nice to meet you !</h2>
                 </div>
-
             </div>
+
             <div className='about-content-container'>
+                <div className='about-img-content'>
+                    <img className='about-img' src={profile} />
+                </div>
                 <div className='about-content'>
                     <p>I’m currently a Product Designer at Ramp based in New York City.
                         I most recently graduated from Cornell. Before that,
@@ -32,9 +35,7 @@ const About = () => {
                     <p> I'm inspired by people who seek happiness and create joy for others.
                         If that sounds like you, let's grab some chai.</p>
                 </div>
-                <div className='about-img-content'>
-                    <img src={profile} />
-                </div>
+
 
             </div>
             {/*<Skills />*/}
@@ -43,4 +44,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About 
