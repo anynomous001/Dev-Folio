@@ -1,7 +1,6 @@
 .home-skills-container {
     display: flex;
     flex-direction: column;
-    gap: 2em;
     background-color: #1a1a1ae7;
     padding: 1em 0;
     text-align: center;
@@ -18,7 +17,7 @@
 .home-skills-headline {
     margin: 0 auto;
     margin-top: 1em;
-    font-size: 2rem;
+    font-size: 4rem;
     width: 50%;
 }
 
@@ -92,14 +91,14 @@
 /***/
 .home-projects-container {
     padding: 3em;
-    height: 42em;
-
+    height: 52em;
+    border: 1px solid white;
     margin: 2em 0;
 
 }
 
 .flex-div {
-    height: 100%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -111,9 +110,32 @@
 }
 
 .flex-div .projectcard {
-    height: 95%;
+    height: 100%;
     width: 25%;
     background-color: #bdb2b267;
+}
+
+.home_project_pic {
+    height: 21em;
+}
+
+.project-more {
+    align-self: center;
+    width: 8em;
+    margin-top: 0;
+    border: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+    background: rgb(222, 193, 150);
+    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+}
+
+.mid-heading-div {
+    border: 1px solid white;
+    height: 18em;
 }
 
 @keyframes slideIn {

@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero2 from '../components/Hero2'
 import Footer from '../components/Footer'
@@ -20,4 +20,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact*/
