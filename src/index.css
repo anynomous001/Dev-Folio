@@ -67,7 +67,7 @@ ul {
   width: 10em;
   display: flex;
   align-items: center;
-  color: aliceblue;
+  color: rgba(223, 227, 230, 0.623);
 }
 
 .facode {
@@ -262,7 +262,7 @@ ul {
   position: absolute;
   top: 30%;
   color: aliceblue;
-  right: 33%;
+  right: 28.5%;
 }
 
 .opener-tag {
@@ -270,7 +270,7 @@ ul {
   align-items: start;
   justify-content: start;
   font-size: 2rem;
-  color: aliceblue;
+  color: rgba(240, 248, 255, 0.486);
 }
 
 
@@ -364,4 +364,19 @@ ul {
   .about-img {
     width: 100%;
   }
+}
+
+/*********************************************************************************************/
+.reveal {
+  position: relative;
+  transform: translateY(25px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+
 }

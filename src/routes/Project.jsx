@@ -18,7 +18,7 @@ const Project = () => {
             <Hero2
                 video={video1}
                 headline={"My Projects."}
-                text={'Some of my recent Projects'}
+                text={'Note that the development build is not optimized.To create a production build, use npm run build.webpack compiled successfully'}
             />
             {/*<PricingCards />*/}
             <div className='headline-div'>

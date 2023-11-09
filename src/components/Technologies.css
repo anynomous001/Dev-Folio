@@ -19,6 +19,13 @@
     margin-top: 1em;
     font-size: 4rem;
     width: 50%;
+    font-family: 'valorant';
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 /*.home-skills-container::after {
@@ -92,7 +99,6 @@
 .home-projects-container {
     padding: 3em;
     height: 52em;
-    border: 1px solid white;
     margin: 2em 0;
 
 }
@@ -122,7 +128,7 @@
 .project-more {
     align-self: center;
     width: 8em;
-    margin-top: 0;
+    margin-top: 2em;
     border: none;
     color: aliceblue;
     font-size: 1.2rem;
@@ -130,27 +136,35 @@
     border-radius: 5px;
     padding: 0.5em 0.8em;
     background: rgb(222, 193, 150);
-    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+    background: linear-gradient(120deg, hsl(36, 52%, 73%) rgba(152, 118, 84, 1) 84%);
+
+}
+
+.project-more:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.project-more:active {
+    transform: scale(0.95);
 }
 
 .mid-heading-div {
-    border: 1px solid white;
     height: 18em;
 }
 
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-    }
 
-    to {
-        transform: translateX(0);
-    }
-}
 
 .home-project-header {
     font-size: 4rem;
     margin-top: 1em;
+    font-family: 'valorant';
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 @media(max-width:700px) {

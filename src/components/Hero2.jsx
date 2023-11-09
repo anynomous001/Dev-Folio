@@ -16,8 +16,8 @@ const Hero2 = ({ video, headline, text }) => {
 
             </div>
             <div className='hero2-content'>
-                <h2> {headline}</h2>
-                <p>{text}</p>
+                <h1 className='project-headline'> {headline}</h1>
+                <h4 className='sub-headline'>{text}</h4>
             </div>
         </div>
     )

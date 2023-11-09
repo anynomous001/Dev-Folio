@@ -29,7 +29,7 @@ const Home = () => {
                         life. <span className='oneliner'> One line of code at a time.</span></h2>
 
                     <div className='btn-container'>
-                        <Link className='btn' to='/Project'>Project</Link>
+                        <Link className='btn' to="../assets/Pritam'sresume.pdf">Resume</Link>
                         <Link className='round-btn github' to='https://github.com/anynomous001 '><BsGithub className='github-icon' /></Link>
                         <Link className='round-btn github' to='/Contact '><FaLinkedinIn className='github-icon' /></Link>
                         <Link className='round-btn github' to='/Contact '><MdEmail className='github-icon' /></Link>

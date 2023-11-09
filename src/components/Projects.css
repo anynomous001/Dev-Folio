@@ -27,14 +27,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-image: url('../assets/project.jpg');
+    background-image: url('../assets/about.jpg');
 }
 
 .pCard-Container::before {
     content: '';
     /*background: #1A1A1A;   */
     background: #1A1A1A;
-    opacity: 0.7;
+    opacity: 0.4;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,6 +69,7 @@
     padding: 0.5em 0.8em;
     font-size: 1.2rem;
     font-weight: 600;
+    transition: transform ease-in-out 0.2s;
 }
 
 .projectcard .view {
@@ -78,7 +79,21 @@
     padding: 0.5em 0.8em;
     background: rgb(222, 193, 150);
     background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+    transition: transform ease-in-out 0.2s;
 }
+
+
+
+.projectcard .view:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.projectcard .source:active {
+    transform: scale(0.95);
+}
+
+
 
 .projectcard img {
     width: 100%;

@@ -13,7 +13,7 @@
 
 .left {
     padding: 1rem;
-
+    font-family: 'visby';
     color: #dec196;
     background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
     background-clip: text;
@@ -28,8 +28,19 @@
     gap: 2.5rem;
 }
 
+.left div h4 {
+    font-family: 'visby';
+}
+
 .right {
     padding: 1rem;
+}
+
+.right h4,
+p {
+    font-family: 'visby';
+    font-size: 1.2rem;
+    line-height: 1.5em;
 }
 
 .right {
