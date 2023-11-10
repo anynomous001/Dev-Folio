@@ -27,9 +27,8 @@ const About = () => {
 
                 <div className='about-content'>
 
-                    <p>I’m currently a Product Designer at Ramp based in New York City.
-                        I most recently graduated from Cornell. Before that,
-                        I was a Product Design Intern at Instagram and a Systems Designer Intern at GitHub.</p>
+                    <p>I’m a Frontend Developer from Kolkata (India).
+                        I completed Frontend Carrer Path from Scrimba. </p>
 
 
                     <OnScroll>
