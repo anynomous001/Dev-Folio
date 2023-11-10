@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 //import video2 from '../assets/video2.mp4'
 import { BsGithub } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
+import resume from "../assets/Pritam'sresume.pdf"
 import { SiFirebase, SiReactrouter, SiTypescript, SiTailwindcss } from 'react-icons/si'
 import {
     FaLinkedinIn,
@@ -29,10 +30,10 @@ const Home = () => {
                         life. <span className='oneliner'> One line of code at a time.</span></h2>
 
                     <div className='btn-container'>
-                        <Link className='btn' to="../assets/Pritam'sresume.pdf">Resume</Link>
+                        <a className='btn' href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
                         <Link className='round-btn github' to='https://github.com/anynomous001 '><BsGithub className='github-icon' /></Link>
-                        <Link className='round-btn github' to='/Contact '><FaLinkedinIn className='github-icon' /></Link>
-                        <Link className='round-btn github' to='/Contact '><MdEmail className='github-icon' /></Link>
+                        <Link className='round-btn github' to='https://www.linkedin.com/in/pritamchakroborty/'><FaLinkedinIn className='github-icon' /></Link>
+                        <Link className='round-btn github' to='https://mail.google.com/mail/mu/mp/354/#pr'><MdEmail className='github-icon' /></Link>
                     </div>
                 </div>
             </div>

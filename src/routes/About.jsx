@@ -32,16 +32,16 @@ const About = () => {
 
 
                     <OnScroll>
-                        <p> I learned my craft by working on side projects with friends and guidance from great mentors.
-                            In my free time, I get my hopes up for the Dallas Mavericks or Cowboys winning a championship
-                            and drink sweet tea. I’m currently learning 3D design, reading about tech history, and logging
-                            my favorite movies.</p>
+                        <p> I learned my craft by building various projects, Scrimba's Wholesome community helped me to evolve as a Developer.
+                            In my free time, I surf through internet to learn more about technology to stay relevant.
+                            I’m currently learning more about advanced frontend stuffs and tooling, apart from these
+                            i like reading about tech articles and blogs.</p>
 
                     </OnScroll>
                     <OnScroll>
 
-                        <p> I'm inspired by people who seek happiness and create joy for others.
-                            If that sounds like you, let's grab some chai.</p>
+                        <p> I'm inspired by people who seek creativity in technology and keen to learn something new.
+                            If that sounds like you, let's get connect and have some chat.</p>
                     </OnScroll>
                 </div>
 
