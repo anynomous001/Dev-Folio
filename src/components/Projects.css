@@ -53,6 +53,7 @@
     z-index: 1;
     border: none;
     transition: transform 0.5s ease-in-out;
+    align-self: center;
 }
 
 /*.projectcard:hover {
@@ -95,9 +96,12 @@
 
 
 
-.projectcard img {
+
+
+.project-image {
     width: 100%;
     border-radius: 5px;
+    height: 21em;
 }
 
 .projectcard h4 {
@@ -144,6 +148,11 @@
         margin-top: 5em;
         margin-bottom: 3em;
         padding: 1em;
+        border: 1px solid rgb(233, 220, 220);
+    }
+
+    .scroll-project-container {
+        align-self: center;
     }
 
     .projectcard div {

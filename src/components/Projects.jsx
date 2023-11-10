@@ -15,26 +15,27 @@ const Projects = () => {
     const data = ProjectData.map((item, index) => {
 
         return (
-            <OnScroll>
-                <div key={Math.random()} className='projectcard'>
-                    <img src={images[index]} alt='Project-photo' />
-                    <h4>{item.name}</h4>
-                    <p>{item.about}</p>
-                    <div>
-                        <a href={item.view} className='view' >View</a>
-                        <a href={item.source} className='source'>source</a>
-                    </div>
-                </div >
-            </OnScroll>
+            <div key={Math.random()} className='projectcard'>
+                <img className='project-image' src={images[index]} alt='Project-photo' />
+                <h4>{item.name}</h4>
+                <p>{item.about}</p>
+                <div>
+                    <a href={item.view} className='view' >View</a>
+                    <a href={item.source} className='source'>source</a>
+                </div>
+            </div >
 
         )
     })
 
     return (
+        <OnScroll>
 
-        <div className='pCard-Container'>
-            {data}
-        </div>
+            <div className='pCard-Container'>
+                {data}
+
+            </div>
+        </OnScroll>
     )
 }
 
