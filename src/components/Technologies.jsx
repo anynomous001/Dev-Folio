@@ -1,9 +1,12 @@
 import React from 'react'
 import './Technologies.css'
-import { ProjectData } from './ProjectData'
-import project_one from '../assets/project_one.jpeg'
-import project_two from '../assets/project_two.jpeg'
+/*import { ProjectData } from './ProjectData'
+*/
 import project_three from '../assets/project_three.jpeg'
+import Endorsementproject from '../assets/Endorsementproject.jpg'
+import Quizproject from '../assets/Quizproject.jpg'
+import project5 from '../assets/Todoproject.jpg'
+
 import { BsGithub } from 'react-icons/bs'
 import { SiFirebase, SiReactrouter, SiTypescript, SiTailwindcss } from 'react-icons/si'
 import {
@@ -26,7 +29,7 @@ const Technologies = () => {
                 <div className='home-projects-container'>
                     <div className='flex-div'>
                         <div key={Math.random()} className='projectcard'>
-                            <img className='home_project_pic' src={project_one} alt='Project-photo' />
+                            <img className='home_project_pic' src={Endorsementproject} alt='Project-photo' />
                             <h4>Endorment Application
                             </h4>
                             <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
@@ -36,7 +39,7 @@ const Technologies = () => {
                             </div>
                         </div >
                         <div key={Math.random()} className='projectcard'>
-                            <img className='home_project_pic' src={project_two} alt='Project-photo' />
+                            <img className='home_project_pic' src={Quizproject} alt='Project-photo' />
                             <h4>Endorment Application
                             </h4>
                             <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
@@ -46,7 +49,7 @@ const Technologies = () => {
                             </div>
                         </div >
                         <div key={Math.random()} className='projectcard'>
-                            <img className='home_project_pic' src={project_three} alt='Project-photo' />
+                            <img className='home_project_pic' src={project5} alt='Project-photo' />
                             <h4>Endorment Application
                             </h4>
                             <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
