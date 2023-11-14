@@ -1,0 +1,132 @@
+/* About Page Css*/
+.aboutHero-div-container {}
+
+.intro-div {
+    margin-top: 8em;
+    padding-left: 2em;
+    position: relative;
+}
+
+.aboutHero-div {
+    background-color: #1a1a1a;
+    height: 50vh;
+    padding: 4em;
+}
+
+.waving {
+    width: 8em;
+    height: 6em;
+    color: #dec196;
+}
+
+.greetings {
+    margin-left: 2em;
+    font-size: 6rem;
+    position: absolute;
+    top: 30%;
+    color: aliceblue;
+    right: 28.5%;
+}
+
+.opener-tag {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: 2rem;
+    color: rgba(240, 248, 255, 0.486);
+}
+
+
+
+
+.about-content-container {
+    height: auto;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    padding: 4em;
+}
+
+.about-content {
+    width: 60%;
+}
+
+.about-content p {
+    margin: 1.5em;
+    font-family: 'visby';
+    font-size: 2rem;
+}
+
+@media(max-width:500px) {
+    .aboutHero-div-container {
+        width: 100vw;
+    }
+
+    .intro-div {
+        width: 100%;
+        margin-top: 5em;
+        position: relative;
+        padding-left: 0;
+    }
+
+    .aboutHero-div {
+        background-color: #1a1a1a;
+        height: 43vh;
+        padding: 2em 1.5em;
+    }
+
+    .waving {
+        width: 4em;
+        height: 3em;
+        color: #dec196;
+    }
+
+    .greetings {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 90%;
+        color: aliceblue;
+        left: 9%;
+        margin-left: 0;
+        margin-top: 0.9em;
+        width: 60%;
+    }
+
+    .opener-tag {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 1rem;
+        color: aliceblue;
+    }
+
+    .about-content-container {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .about-content {
+        width: 100%;
+        line-height: 2.1em;
+    }
+
+    .about-content p {
+        font-family: 'visby';
+        font-size: 1.5rem;
+    }
+
+    .about-content :first-child[type='p'] {
+        margin-top: 0;
+    }
+
+    .about-img-content {
+        width: 80%;
+        margin-right: 2em;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+}
+
+/*********************************************************************************************/
