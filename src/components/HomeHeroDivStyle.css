@@ -1,0 +1,181 @@
+.homeHero-div {
+    background-color: #1a1a1a;
+    height: 80vh;
+    padding: 4em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.visbyfont {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5rem;
+    color: #DF0A42;
+}
+
+.small-tag {
+    text-align: center;
+    justify-items: center;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    color: rgba(223, 227, 230, 0.623);
+}
+
+.facode {
+    height: 1.2em;
+    width: 2em;
+    margin-left: 0.7em;
+}
+
+.homeHero-div div h2 {
+    color: aliceblue;
+    font-family: 'visby', sans-serif;
+    word-spacing: 0.2em;
+    font-size: 2.5rem;
+    margin: 1em 0;
+}
+
+.oneliner {
+    font-family: 'visby';
+    position: relative;
+}
+
+.oneliner:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 1em;
+    background-color: #dec196;
+}
+
+/*.coding {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5rem;
+  color: #2D5869;
+}
+
+.ideas {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5rem;
+  color: #2795AC;
+}
+
+.design {
+  font-family: 'visby';
+  font-size: 3.5rem;
+  color: #FB6C06;
+}
+*/
+.btn {
+    margin: 2rem 1rem;
+    color: black;
+    font-weight: 600;
+    padding: 1.3rem 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid #1a1a1a;
+    transition: transform 0.3s ease-in-out;
+    background: rgb(222, 193, 150);
+    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+}
+
+.round-btn {
+    border: #dec196 1px solid;
+    width: 4em;
+    height: 4em;
+    color: #1a1a1a;
+    border-radius: 50%;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-icon {
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.btn:hover {
+    background-color: rgba(245, 245, 220, 0.616);
+    transform: scale(1.1);
+
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:700px) {
+
+    .btn {
+        color: black;
+        font-weight: 600;
+        padding: 1.1rem 1.5rem;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 1.2rem;
+        border-radius: 15px;
+        margin-left: 0;
+    }
+
+    .round-btn {
+        border: #dec196 1px solid;
+        width: 3em;
+        height: 3em;
+        color: #1a1a1a;
+        border-radius: 50%;
+        margin-left: 0.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .github-icon {
+        color: #dec196;
+        background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        width: 2em;
+        height: 2em;
+    }
+
+    .homeHero-div {
+        width: 100%;
+        padding-left: 1.8em;
+    }
+
+    .small-tag {
+        margin-top: 6em;
+    }
+
+    .homeHero-div div h2 {
+        word-spacing: 0.2em;
+        font-size: 1.5rem;
+        margin: 1em 0;
+        width: 80%;
+        line-height: 1.5em;
+    }
+
+    .btn-container {
+        margin-left: 0;
+    }
+
+    .visbyfont {
+        font-size: 2rem;
+        width: 40vw;
+    }
+}

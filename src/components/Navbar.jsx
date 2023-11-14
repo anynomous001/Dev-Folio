@@ -12,13 +12,7 @@ const Navbar = () => {
 
     const [headerbgColor, setheaderbgColor] = React.useState(false)
 
-    /* React.useEffect(function () {
-         if (window.scrollY >= 50) {
-             setheaderbgColor(true)
-         } else {
-             setheaderbgColor(false)
-         }
-     }, [scroll])*/
+   
     const changecolor = () => {
         if (window.scrollY >= 100) {
             setheaderbgColor(true)

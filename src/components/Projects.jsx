@@ -33,7 +33,6 @@ const Projects = () => {
 
             <div className='pCard-Container'>
                 {data}
-
             </div>
         </OnScroll>
     )
