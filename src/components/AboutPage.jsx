@@ -2,6 +2,7 @@ import React from 'react'
 import { PiHandWaving } from 'react-icons/pi'
 import profile from '../assets/profile.jpg'
 import OnScroll from '../components/OnScroll'
+import './AboutPageStyle.css'
 
 const AboutPage = () => {
     return (

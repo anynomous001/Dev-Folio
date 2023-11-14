@@ -1,5 +1,4 @@
 /* About Page Css*/
-.aboutHero-div-container {}
 
 .intro-div {
     margin-top: 8em;
@@ -57,9 +56,9 @@
     font-size: 2rem;
 }
 
-@media(max-width:500px) {
+@media(max-width:800px) {
     .aboutHero-div-container {
-        width: 100vw;
+        width: 100%;
     }
 
     .intro-div {
@@ -128,5 +127,3 @@
         width: 100%;
     }
 }
-
-/*********************************************************************************************/
