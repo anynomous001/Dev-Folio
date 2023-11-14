@@ -20,14 +20,18 @@
   font-family: 'outfit', sans-serif;
 }
 
-
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 
 
 body {
   background: #1a1a1a;
   border: 1px snow solid;
   margin: 0;
-  width: 100%;
 }
 
 h1,
