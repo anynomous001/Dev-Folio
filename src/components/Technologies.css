@@ -40,12 +40,12 @@
 }*/
 
 .home-skills-subheadline {
-    margin-bottom: 1em;
+    margin-bottom: 0.3em;
     font-size: 2rem;
 }
 
 .skill-div {
-    margin-top: 1em;
+    margin-top: 0.5em;
     height: 30%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -204,5 +204,31 @@
         left: 0;
         bottom: 0;
         box-shadow: -1px -6px 7px 0px rgba(222, 193, 150, 0.6);
+    }
+
+    .home-skills-headline {
+        margin: 0 auto;
+        margin-top: 1em;
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    .mid-heading-div {
+        height: 15em;
+    }
+
+
+    .skill-div div p {
+        margin-top: 1em;
+        font-size: 1rem;
+    }
+
+
+
+
+    .skill-icon {
+        color: #dec196;
+        width: 2.5em;
+        height: 2.5em;
     }
 }
