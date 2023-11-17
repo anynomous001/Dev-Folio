@@ -117,7 +117,7 @@
     align-items: center;
 }
 
-@media (max-width:300px) {
+@media (max-width:850px) {
 
     .btn {
         color: black;

@@ -7,12 +7,12 @@ import HomeHeroDiv from '../components/HomeHeroDiv'
 
 const Home = () => {
     return (
-        <>
+        <div className='home-body-container'>
             <Navbar />
             <HomeHeroDiv />
             <Technologies />
             <Footer />
-        </>
+        </div>
     )
 }
 

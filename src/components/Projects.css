@@ -139,7 +139,12 @@
     margin: 0.2em 0.2em 0.8em 0.2em;
 }
 
-@media only screen and (max-width : 800px) {
+@media (max-width:800px) {
+    .project-body-container {
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
     .pCard-Container {
         width: 100%;
         display: flex;
@@ -179,6 +184,11 @@
 }
 
 @media only screen and (max-width : 500px) {
+    .project-body-container {
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
     .pCard-Container {
         width: 100%;
         display: flex;

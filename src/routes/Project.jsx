@@ -10,7 +10,7 @@ const Project = () => {
 
 
     return (
-        <div >
+        <div className='project-body-container'>
             <Navbar />
             <Hero2
                 video={video1}
